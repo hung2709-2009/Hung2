@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 120px;
+    background-color:#fff ;
+}
+.header_top{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_search{
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
+    align-items: center;
+}
+.header_search input{
+    width: 515px;
+    height: 40px;
+    padding:  0 20px;
+    overflow: none;
+}
+.search_icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.header_acc{
+    display: flex;
+    align-items: center;
+}
+.header_acc a{
+    margin: 0 10px;
+    color: black;
+}
+
+.discovery{
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-top: 60px;
+}
+.na{
+    display: flex;
+}
+.oto_item{
+    margin-top: 40px;
+    width: 25%;
+}
+.img-inner img{
+    width: 100%;
+}
+   
+.oto_total{
+    font-weight: 700;
+    font-size: 30px;
+}
+.oto_chitiet p{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.oto_chitiet p:first-child{
+    border-right: 1px solid #727272;
+}
+.list{
+    display: flex;
+    border-top: 1px solid #727272;
+    border-bottom: 1px solid #727272;
+    padding :50px 0px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.khuyen_mai{
+    height: 100px;
+    width: 100px;
+    background: url(https://www.toyota.com.vn/Content/Images/global-image/global-image.png ) -210px -10px;
+}
+
+.bang_gia{
+    height: 100px;
+    width: 100px;
+    background: url(https://www.toyota.com.vn/Content/Images/global-image/global-image.png ) -210px -112px;
+}
+
+.dang_ki_lai_thu{
+    height: 100px;
+    width: 100px;
+    background: url(https://www.toyota.com.vn/Content/Images/global-image/global-image.png ) -312px -10px;
+}
+.list p {
+    font-weight: 700;
+}
+.DV {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.img-DV img{
+    width: 350px;
+    height: 350px;
+}
+.van_hanh{
+    display: flex;
+}
+.them{
+    color: #ff0000;
+}
+.tin_tuc_va_khuyen_mai{
+    margin-top: 50px;
+}
+.thanh_thong_tin{
+    display: flex;
+    list-style: none;
+   
+}  
+.thanh_thong_tin li {
+    width: 20%;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    font-weight: 700;
+}
+.hinh_anh{
+    display: flex;
+}
+.hinh_anh p {
+    font-weight: 600;
+}
+.one_anh{
+
+    width: 100%;
+}
+.one_anh img{
+    width: 632px;
+    height: 460px;
+}
+.two_anh img{
+    width: 347px;
+    width: 100%;
+    height: 100%;
+    max-height: 173px;
+    object-fit: cover;
+    object-position: center;
+}
+    
+.bao_duong{
+    max-width: 33.333%;
+}
+.img_CN{
+    display: flex;
+}
+.img_CN img{
+    width: 50%;
+}
+.khung_trao_doi{
+    border: 1px solid #000000;
+    padding: 50px;
+}
+.tieu_de{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid #ff0000 ;
+}
+.khach_hang{
+    font-weight: 700;
+    font-size: 30px;
+}
+.khach_hang input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    display: block;
+    width: 100%;
+}
+.ghi_chu input{
+    border: 1px solid #727272;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.Gui{
+    display: flex;
+}
+.nhieu_2 {
+    display: flex;
+    list-style: none;
+    margin-top: 200Px;
+}
+.nhieu_2 li{
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+}
+.nhieu_3{
+    display: flex;
+    list-style: none;
+}
+.nhieu_3 li{
+    width: 20%;
+    text-align: center;
+}
+.cuoi{
+    background-color: #000000;
+    height: 400px;
+}
+.nhieu_4{
+    display: flex;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.nhieu_4 li{
+    width: 33%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: left;
+}
+.nhieu_5 {
+    display: flex;
+    list-style: none;
+}
+.nhieu_5 li{
+    width: 33%;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    text-align: left;
+    line-height: 10px;
+}
+.nhieu_5 input{
+    height: 40px;
+    width: 100%;
+    max-width: 246px;
+    margin-right: 12px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #101010;
+}
+.do_cheo{
+    height: 40px;
+    width: 40px;
+    background-color: #EB0A1E;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.YF{
+    display: flex;
+}
+.YF h3{
+    color: #0004ff;
+}
+.YF h2{
+    color: #ff0000;
+}
+.het{
+    display: flex;
+}
+.het li{
+    width: 33%;
+    color: #727272;
+    list-style: none;
+}
